@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28ad418f-0c51-4bb1-b84e-754825b4b1f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/Pet/pet.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/Store/store.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/User/user.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/karate-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/logback-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/Misc/misc.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSuite/mealPlan/mealPlan.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/Pet/pet.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/Store/store.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/User/user.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,27 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AppTest.executor": "Run",
-    "JUnit.Runner.executor": "Run",
-    "JUnit.Runner.runStore.executor": "Run",
-    "JUnit.Runner.runUser.executor": "Run",
-    "Karate Feature.pet.feature: Add Pet to Store.executor": "Run",
-    "Karate Feature.pet.feature: Get Pet.executor": "Run",
-    "Karate Feature.user.feature: Create list of users.executor": "Run",
-    "Karate Feature.user.feature: Create user.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/AutomationAdvancedExercise_Selenium"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AppTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.runStore.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.runUser.executor&quot;: &quot;Run&quot;,
+    &quot;Karate Feature.pet.feature: Add Pet to Store.executor&quot;: &quot;Run&quot;,
+    &quot;Karate Feature.pet.feature: Get Pet.executor&quot;: &quot;Run&quot;,
+    &quot;Karate Feature.user.feature: Create list of users.executor&quot;: &quot;Run&quot;,
+    &quot;Karate Feature.user.feature: Create user.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/AutomationAdvancedExercise_Selenium&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.Runner.runUser">
+}</component>
+  <component name="RunManager" selected="JUnit.Runner.runMiscplan">
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="karateTutorial" />
+      <module name="karateAdvance" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestSuite.*" />
@@ -83,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner.runStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="karateTutorial" />
+    <configuration name="Runner.runMiscplan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="karateAdvance" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestSuite.*" />
@@ -93,14 +87,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestSuite" />
       <option name="MAIN_CLASS_NAME" value="TestSuite.Runner" />
-      <option name="METHOD_NAME" value="runStore" />
+      <option name="METHOD_NAME" value="runMiscplan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Runner.runUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="karateTutorial" />
+      <module name="karateAdvance" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestSuite.*" />
@@ -121,7 +115,7 @@
           <option value="$PROJECT_DIR$/src/test/java/TestSuite/User/user.feature:7" />
         </list>
       </option>
-      <module name="karateTutorial" />
+      <module name="karateAdvance" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,7 +127,7 @@
           <option value="$PROJECT_DIR$/src/test/java/TestSuite/User/user.feature:15" />
         </list>
       </option>
-      <module name="karateTutorial" />
+      <module name="karateAdvance" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner.runMiscplan" />
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.Runner.runUser" />
         <item itemvalue="Karate Feature.user.feature: Create user" />
         <item itemvalue="Karate Feature.user.feature: Create list of users" />
-        <item itemvalue="JUnit.Runner.runStore" />
-        <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
   </component>

@@ -3,12 +3,13 @@ import com.intuit.karate.junit5.Karate;
 
 class Runner {
     @Karate.Test
-    public Karate runPet(){
-        return Karate.run("Pet/pet").relativeTo((getClass()));
+    public Karate runMealplan(){
+        return Karate.run("mealPlan/mealPlan").relativeTo((getClass()));
     }
+
     @Karate.Test
-    public Karate runUser(){
-        return Karate.run("User/user").relativeTo((getClass()));
+    public Karate runMiscplan(){
+        return Karate.run("recipe/recipe").relativeTo((getClass()));
     }
 
 }
